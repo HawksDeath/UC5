@@ -263,7 +263,7 @@ namespace MarioLikeGame
             placar.DataScoreJogador = DateTime.Now;
             
 
-            //Chama a funcao inserir da DAL passando o objeto populado como parametro
+            //Chama a funcao inserir da DAL passando o objeto populado como parametros
             if (!gamerDAL.Inserir(placar))
             {
                 //Deu pau! Exibir mensagem para o usuario
